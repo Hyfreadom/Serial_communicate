@@ -1,16 +1,27 @@
+#文件分包传输程序
 # Serial_communicate
 
-#系统环境# 
-1. ENV : Ubuntu 16.04
 
-#依赖包安装#
-2. Install dependent packages: 
+1. ENV : Ubuntu 16.04           #系统环境# 
+###########################################
+
+
+
+2. Install dependent packages:  #依赖包安装#
+-----------------------------------------
 apt-get install socat
+-----------------------------------------
 
-#依赖包使用#
-3. Set virtual serial port
+
+
+3. Set virtual serial port      #依赖包使用#
+-----------------------------------------
 socat -d -d pty,b115200 pty,b115200
+-----------------------------------------
 
-#使用程序#
-4. Run
-5. 
+
+4. Run                          #使用程序#
+-----------------------------------------
+python Client_new.py
+python Server_new.py
+-----------------------------------------
