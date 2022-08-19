@@ -2,7 +2,8 @@
 Serial_communicate
 
 
-## 1. ENV : Ubuntu 16.04           系统环境
+## 1. ENV :            系统环境
+Ubuntu 16.04
 ***
 
 
