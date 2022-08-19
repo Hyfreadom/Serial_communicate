@@ -1,2 +1,6 @@
 # Serial_communicate
-Practice of EmbeddedSystem Class
+env: Ubuntu 16.04
+
+apt-get install socat
+socat -d -d pty,b115200 pty,b115200
+
